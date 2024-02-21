@@ -16,6 +16,8 @@ Find out what data he is hiding!
     ```bash
     git diff 0210.txt 0211.txt  --word-diff-regex=.
     ```
+
+    ![](./diff.png)
 - Also the title says `Zoetrope`, which is a device that produces an illusion of motion from a rapid sequence of static images.
 - The above 2 hints suggest that we need to combine all the text files in form of images to make a video/animation.
 - Using the below python script, we create the `output.mp4` video.
