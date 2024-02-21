@@ -15,7 +15,7 @@ Find out what data he is hiding!
 - Using the diff command, we can see that the consecutive files are almost similar with a few bits being changed & it tries to form a word.
 
     ```bash
-    git diff 0210.txt 0211.txt  --word-diff-regex=.
+    $ git diff 0210.txt 0211.txt  --word-diff-regex=.
     ```
 
     ![](./diff.png)
