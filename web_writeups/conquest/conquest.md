@@ -18,6 +18,7 @@ This challenge was divided into 3 parts. The first webpage presents a riddle tha
 ![Riddle Image](./images/root.png)
 
 Once you access the `robots.txt` file, you would find a file path `/tournament` that would lead to the next webpage.
+
 ![Webpage Image](./images/robot.png)
 
 Here you see the following webpage:
@@ -29,6 +30,7 @@ As the first line suggests you have to beat the dragon faster than 0 seconds in 
 The second line hints at the use of directory fuzzing to search for all the well-known file paths or directories. Using `diresearch` or any other fuzzer one can find the following file path: `/tournament/humans.txt`.
 
 This is where the main challenge lies.
+
 ![Webpage Image](./images/final.png)
 
 As you can see in the image the webpage has a form that has a hidden input parameter with a Linux epoch time value. On decoding one finds out that it refers to a time in the past. When you submit the form, the webpage checks if the time is less than 0 seconds(this is where the hint given in the previous webpage is used).It would not be in this case.So you have to think of a way to change the form value to a future epoch time.
