@@ -23,6 +23,8 @@ git diff 0210.txt 0211.txt  --word-diff-regex=.
 - The above 2 hints suggest that we need to combine all the text files in form of images to make a video/animation.
 - Using the below python script, we create the `output.mp4` video.
 
+https://github.com/bitskriegofficial/BITSCTF-2024/blob/52a026ffad94b53d1eddfab58aab36275f77e0de/misc/Binary%20Zoetrope/solve.py#L1
+
 ## Flag
 Seeing the video, we get the flag as the text scrolls from right to left.
 ```
