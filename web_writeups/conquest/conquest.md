@@ -46,10 +46,11 @@ print(response.text)
 
 Alternatively, you could use Burp Suite to intercept the request and change the value of the hidden input parameter to a future epoch time.
 
-##Flag
-The flag is: __BITSCTF{7HE_r341_7r345Ur3_W45_7H3_Fr13ND5_W3_M4D3_410N6_7H3_W4Y}__
+## Flag
+The flag is: 
+__BITSCTF{7HE_r341_7r345Ur3_W45_7H3_Fr13ND5_W3_M4D3_410N6_7H3_W4Y}__
 
 Hope you enjoyed the challenge :).
 
-##Author
+## Author
 [@DarthLazius](https://github.com/darthlazius)
