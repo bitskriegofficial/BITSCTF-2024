@@ -3,7 +3,8 @@
 I mananged to invade MogamBro's PC & got a sneak peak of his desktop...
 Find out what data he is hiding!
 
-<img src="./wallpaper.png" alt="drawing" width="400"/>
+<!-- <img src="./wallpaper.png" alt="drawing" width="400"/> -->
+![](./wallpaper.png)
 
 > rskbansal & Pamdi
 
