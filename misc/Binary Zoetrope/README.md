@@ -11,7 +11,6 @@ Find out what data he is hiding!
 
 
 ## Flag
-On combining both the parts, we get the flag:
 ```
 BITSCTF{n0w_u_c_m3}
 ```
