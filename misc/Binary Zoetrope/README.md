@@ -12,7 +12,7 @@ Find out what data he is hiding!
 
 ## Solution
 - We are given with a zip which contains a lot of binary text files.
-- Using the diff command, we can see that the consecutive files are almost similar with a few bits being changed & it tries to form a word.<br>
+- Using the diff command, we can see that the consecutive files are almost similar with a few bits being changed & it tries to form a word.
 
     ```bash
     git diff 0210.txt 0211.txt  --word-diff-regex=.
