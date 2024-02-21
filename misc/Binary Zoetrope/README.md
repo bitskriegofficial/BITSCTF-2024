@@ -7,6 +7,9 @@ Find out what data he is hiding!
 
 > rskbansal & Pamdi
 
+## Files
+[**data.zip**](./data.zip)
+
 ## Solution
 
 
